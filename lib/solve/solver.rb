@@ -27,7 +27,7 @@ module Solve
       @ds_graph = DepSelector::DependencyGraph.new
       @graph = graph
       @demands_array = demands
-      @timeout_ms = 1_000
+      @timeout_ms = 10_000
     end
 
     # The problem demands given as Demand model objects
